@@ -36,11 +36,7 @@ main {
   top:calc(30px + 25vh);
   padding:20px;
   overflow-y:scroll;
-/*   overflow-x:scroll;  */
 }
-tbody {
-  display:grid;
-|}
 img {
   margin:5px 25px 5px 5px;
   height:100%;
@@ -57,10 +53,3 @@ div.softpub {
 p.softpub {
   margin-bottom:20px;
 }
-/* footer {
-  position:fixed;
-  top:95vh;
-  height:5vh;
-  width:100%;
-}
- */
