@@ -2,19 +2,3 @@ theme: jekyll-theme-minimal
 title: Luca Sartore's Homepage
 description: Bookmark this to keep an eye on my project updates!
 
-social-network-links:
-  email: "lsartore@niss.org"
-  github: drwolf85
-  ORCID: 0000-0002-0446-1328
-  telephone: +12026908808
-
-share-links-active:
-  linkedin: false
-  ORCID: true
-  github: true
-  
- title-on-all-pages: true
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
