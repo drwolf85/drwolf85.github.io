@@ -19,10 +19,6 @@ header {
   display:flex;
   flex-direction: row;
 }
-img {
-  margin:5px 25px 5px 5px;
-  height:100%;
-}
 nav {
   position:fixed;
   width:calc(30vw - 40px);
@@ -41,6 +37,25 @@ main {
   padding:20px;
   overflow-y:scroll;
 /*   overflow-x:scroll;  */
+}
+tbody {
+  display:grid;
+|}
+img {
+  margin:5px 25px 5px 5px;
+  height:100%;
+}
+img.logo {
+  height:125px;
+  vertical-align:top;
+  float:left;
+}
+div.softpub {
+  display:flex;
+  flex-direction:column;
+}
+p.softpub {
+  margin-bottom:20px;
 }
 /* footer {
   position:fixed;
