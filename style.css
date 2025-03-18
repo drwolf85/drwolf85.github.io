@@ -46,6 +46,14 @@ img.logo {
   vertical-align:top;
   float:left;
 }
+div.text {
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+}
+div.text p {
+  margin:0px;
+}
 div.softpub {
   display:flex;
   flex-direction:column;
