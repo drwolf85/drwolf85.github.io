@@ -7,48 +7,64 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  display:block;
+  display:flex;
+  flex-wrap:wrap;
 }
 header {
-  position:fixed;
-  width:100%;
-  height:25vh;
+  /* position:fixed; */
+  width:100vw;
+  height:100%;
+  margin-bottom:20px;
   text-align:center;
   justify-content: center;
   background-color:#fff;
   display:flex;
   flex-direction: row;
 }
-nav {
-  position:fixed;
-  width:calc(30vw - 40px);
-  padding:20px;
-  height:calc(75vh - 70px);
-  top:calc(30px + 25vh);
-  overflow-y:scroll;
-  overflow-x:scroll;
-}
-main {
-  position:fixed;
-  width:calc(70vw - 40px);
-  left:30vw;
-  height:calc(75vh - 70px);
-  top:calc(30px + 25vh);
-  padding:20px;
-  overflow-y:scroll;
-}
-@media printer {
+@media screen { 
   nav {
-      visibility:hidden;
+    /* position:fixed; */
+    width:calc(30vw - 40px);
+    padding:20px;
+    height:calc(75vh - 90px);
+    top:calc(30px + 25vh);
+    overflow-y:scroll;
+    overflow-x:scroll;
+  }
+  main {
+    /* position:fixed; */
+    width:calc(70vw - 40px);
+    left:30vw;
+    height:calc(75vh - 90px);
+    top:calc(30px + 25vh);
+    padding:20px;
+    overflow-y:scroll;
+  }
+}
+@media print {
+  nav {
+    visibility:hidden;
+    height:0px;
+    padding:0px;
+    margin:0px;
+    border:0px;
   }  
+  main {
+    width:calc(100vw - 40px);
+  }
 }
 @media not screen and (min-width:600px) {
   nav {
     visibility:hidden;
+    height:0px;
+    padding:0px;
+    margin:0px;
+    border:0px;
   }
   main {
     left:0;
     width:calc(100vw - 40px);
+    overflow:visible;
   }
 }
 img {
@@ -64,6 +80,7 @@ div.text {
   display:flex;
   flex-direction:column;
   text-align:left;
+  width:calc(90vw - 40px);
 }
 div.text span.links {
   display:flex;
