@@ -68,7 +68,7 @@ header {
   main {
     left:0;
     width:calc(100vw - 40px);
-    /* overflow:visible; */
+    overflow:visible;
   }
 }
 img {
