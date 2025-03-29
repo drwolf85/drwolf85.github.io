@@ -24,7 +24,7 @@ header {
 @media screen { 
   nav {
     /* position:fixed; */
-    width:calc(30vw - 40px);
+    width:calc(30vw - 45px);
     padding:20px;
     height:calc(75vh - 90px);
     top:calc(30px + 25vh);
@@ -33,7 +33,7 @@ header {
   }
   main {
     /* position:fixed; */
-    width:calc(70vw - 40px);
+    width:calc(70vw - 50px);
     left:30vw;
     height:calc(75vh - 90px);
     top:calc(30px + 25vh);
@@ -64,7 +64,7 @@ header {
   main {
     left:0;
     width:calc(100vw - 40px);
-    overflow:visible;
+    /* overflow:visible; */
   }
 }
 img {
