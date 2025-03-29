@@ -9,6 +9,7 @@ body {
   border: 0;
   display:flex;
   flex-wrap:wrap;
+  font-family:"Cormorant Garamond", serif;
 }
 header {
   /* position:fixed; */
