@@ -125,8 +125,8 @@ p {
   img.logo {
     height: 80px !important;
     width: auto !important;
-    vertical-align: middle !important;
-    float: none !important;
+    vertical-align: top !important;
+    float: left !important;
     margin: 0 1rem 0 0 !important;
     border-radius: 8px !important;
   }
