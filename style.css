@@ -56,6 +56,12 @@ header a:hover {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
+/* Paragraph justification */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Navigation styles */
 @media screen { 
   nav {
@@ -187,6 +193,21 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Work experience content styles */
+div.work-experience-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #74b9ff;
+  margin: 1rem 0;
+}
+
+div.work-experience-content p {
+  color: #555;
+}
+
 /* Softpub styles */
 div.softpub {
   display: flex;
@@ -201,7 +222,7 @@ div.softpub {
 p.softpub {
   margin-bottom: 1rem;
   font-style: italic;
-  color: #666;
+  color: #555;
 }
 
 /* Typography improvements */
